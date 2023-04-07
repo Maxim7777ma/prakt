@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{background-color: slategray}
+
+
+header{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+    text-align: center;
+
+
+}
+
+header img{
+    height: 5rem;
+    width: 5rem;
+    margin-left: 50rem;
+
+}
+header li{
+    border: slategray solid;
+    list-style-type: none;
+    padding: 0.5rem;
+    margin: 2rem;
+}
+
+.bmw1{
+    display: flex;
+
+}
+.bmw1 img{
+    width: 50rem;
+    height: 50rem;
+}
+.bmw1 main{
+    margin-top: 17rem;
+
+    letter-spacing: 0.2rem;
+    line-height: 2rem;
+}
+.bmw2{
+    display: flex;
+    margin-left: 10rem;
+}
+.bmw2  img{
+    width: 60rem;
+    height: 35rem;
+    transform: scaleX(-1);
+
+
+}
+.bmw2 main{
+    margin-top: 10rem;
+    letter-spacing: 0.2rem;
+    line-height: 2rem;
+}
+.kont{
+    display: flex;
+    margin-bottom: 3rem;
+}
+.kont iframe{
+    height: 20rem;
+    width: 40rem;
+}
+.kont main{
+    margin-top: 4rem;
+    margin-left: 2rem;
+    font-size: 3rem;
+    letter-spacing: 0.2rem;
+    line-height: 5rem;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    height: 3rem;
+    font-size: 1.5rem;
+    background-color: white;
+    text-align: center;
+    align-items: center;
+
+
+}
+
+
+
